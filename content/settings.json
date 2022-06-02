@@ -1,5 +1,5 @@
 {
-  "store_id": 51274,
+  "store_id": 1024,
   "name": "ecommerce2tiasonia",
   "domain": "ecommerce2tiasonia.netlify.app",
   "short_name": "ecommerce2tiasonia",
@@ -11,7 +11,7 @@
     "bootswatch": "_",
     "custom": "_"
   },
-  "logo": "/img/uploads/logo.png",
+  "logo": "/img/uploads/logo-1996-1-.png",
   "mini_logo": "",
   "icon": "/img/icon.png",
   "large_icon": "/img/large-icon.png",
