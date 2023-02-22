@@ -1,3 +1,13 @@
+<%
+_.EcomSearch.dslMiddlewares.push((dsl) => {
+  dsl.query.bool.filter.push({
+    terms: {
+      'categories.name': ['Ultrabar']
+    }
+  })
+})
+%>
+
 <%- await include('@/meta') %>
 
 <%
