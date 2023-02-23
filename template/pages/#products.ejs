@@ -18,4 +18,10 @@ _.breadcrumbs.push({
 })
 %>
 
-<%- await include('@/view') %>
+<% if (_.breadcrumbs.find(({ slug }) => (slug === 'ultrabar')) { %>
+  <%- await include('@/view') %>
+<% } else { %>
+<html><head>
+<meta http-equiv="refresh" content="0; url='https://www.emporiotiasonia.com.br/<%- body.slug %>'" />
+</head><body></body></html>
+<% } %>
