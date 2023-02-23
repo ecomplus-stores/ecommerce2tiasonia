@@ -17,8 +17,8 @@ _.breadcrumbs.push({
   link: `/${body.slug}`
 })
 %>
-
-<% if (_.breadcrumbs.find(({ slug }) => (slug === 'ultrabar'))) { %>
+ria
+<% if (_.breadcrumbs.find(({ link }) => (link === '/ultrabar'))) { %>
   <%- await include('@/view') %>
 <% } else { %>
 <html><head>
