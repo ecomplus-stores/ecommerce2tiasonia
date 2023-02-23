@@ -1,6 +1,6 @@
 {
-  "meta_title": "",
-  "meta_description": "",
+  "meta_title": "Ultrabar: Alimenta quem se movimenta",
+  "meta_description": "Alimenta quem se movimenta! Ultrabar é aquela energia extra quando você mais precisa.",
   "sections": [
     {
       "type": "banner-slider",
@@ -8,9 +8,9 @@
       "full_width": false,
       "slides": [
         {
-          "img": "/img/uploads/lata-tia-sonia.jpg",
+          "img": "/img/uploads/1666618736434-banner-desktop1920x5001.webp",
           "link": "",
-          "alt": "Headset banner"
+          "alt": "Ultrabar: Alimenta quem se movimenta"
         }
       ]
     },
