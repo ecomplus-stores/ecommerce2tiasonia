@@ -49,7 +49,7 @@ let marketingStripeStyle = ''
 <header class="header" id="header">
   <div class="header__container container-fluid">
     <div class="header__row row">
-      <div class="col-auto p-0">
+      <div class="d-lg-none col-auto p-0">
         <button
           class="btn header__toggler"
           type="button"
@@ -189,14 +189,14 @@ let marketingStripeStyle = ''
         <div class="d-none d-lg-block col">
           <nav class="header__nav">
             <% header.contacts_stripe.pages.forEach(({ link, title }) => { %>
-              <div class="d-inline-block">
+              <div class="d-inline-block mx-1">
                 <a href="<%= link %>" class="header__category">
                   <%= title %>
                 </a>
               </div>
             <% }) %>
             <% if (header.contacts_stripe.phone_wpp && contacts.whatsapp) { %>
-              <div class="d-inline-block">
+              <div class="d-inline-block mx-1">
                 <a href="javascript:;" target="_blank" rel="noopener" class="header__category whatsapp-link"
                   data-tel="<%= contacts.whatsapp.replace(/\D/g, '') %>">
                   <i class="i-whatsapp"></i>
@@ -205,7 +205,7 @@ let marketingStripeStyle = ''
               </div>
             <% } %>
             <% if (header.contacts_stripe.socials) { %>
-              <div class="d-inline-block">
+              <div class="d-inline-block mx-1">
                 <% networks.forEach(network => { %>
                   <% if (contacts[network]) { %>
                     <a href="<%= contacts[network] %>" target="_blank" rel="noopener">
