@@ -4,8 +4,17 @@
     "link": ""
   },
   "contacts_stripe": {
-    "pages": [],
-    "phone_wpp": false,
+    "pages": [
+      {
+        "title": "Sobre nós",
+        "link": "/pages/sobre-nos"
+      },
+      {
+        "title": "Granolas Tia Sônia",
+        "link": "https://www.emporiotiasonia.com.br/"
+      }
+    ],
+    "phone_wpp": true,
     "socials": false
   },
   "categories_list": {
@@ -13,6 +22,6 @@
     "random": 0,
     "full_width": false
   },
-  "desktop_megamenu": false,
+  "desktop_megamenu": true,
   "search_input": false
 }
