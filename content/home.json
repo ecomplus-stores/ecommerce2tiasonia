@@ -9,6 +9,7 @@
       "slides": [
         {
           "img": "/img/uploads/ultrabar-hero.webp",
+          "mobile_img": "/img/uploads/ultrabar-hero__mobile.webp"
           "link": "",
           "alt": "Ultrabar: Alimenta quem se movimenta"
         }
