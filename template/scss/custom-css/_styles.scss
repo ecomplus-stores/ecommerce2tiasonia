@@ -1,16 +1,8 @@
-//contudown
-
-  .prices__points, .product__payment, .prices__installments, .payment__gateway--1251, .payment__gateway--1238, .payment__gateway--1250, .points-applier {
-      display: none;
+@media (min-width: 576px) {
+  .header__logo {
+    max-width: 175px;
   }
-  /* .payment__gateway--123188[data-label="Assinatura Mensal Cartão de crédito"] .payment__title {
-      font-size: 0;
-      &::after {
-          content: "Assinatura Mensal";
-          font-size: 1rem !important;
-          padding-right: 3px;
-      }
-  }
-  .payment__gateway--123188:first-child {
-      border-top: 1px solid;
-  } */
+}
+.header__nav {
+  text-align: left;
+}
