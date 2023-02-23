@@ -1,9 +1,9 @@
 {
   "store_id": 1024,
-  "name": "ecommerce2tiasonia",
+  "name": "Ultrabar",
   "domain": "ecommerce2tiasonia.netlify.app",
   "short_name": "Ultrabar",
-  "description": "Ultrabar",
+  "description": "Alimenta quem se movimenta! Ultrabar é aquela energia extra quando você mais precisa.",
   "primary_color": "#DE6B32",
   "secondary_color": "#2F4299",
   "bg_color": "#ffffff",
@@ -21,6 +21,6 @@
   "currency_symbol": "R$",
   "country_code": "BR",
   "repository": "ecomplus-stores/ecommerce2tiasonia",
-  "icons_font": "tabler-icons",
+  "icons_font": "feather-icons",
   "font_family": "_"
 }
