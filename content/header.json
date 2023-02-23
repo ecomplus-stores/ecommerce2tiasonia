@@ -1,27 +1,18 @@
 {
   "marketing_stripe": {
-    "text": "Aproveite nossos descontos de até 40%!",
-    "link": "/promotion"
+    "text": "Frete grátis acima de R$ 100,00",
+    "link": ""
   },
   "contacts_stripe": {
-    "pages": [
-      {
-        "title": "Sobre nós",
-        "link": "/pages/sobre-nos"
-      },
-      {
-        "title": "Esta loja é um PWA",
-        "link": "/posts/esta-loja-e-um-pwa"
-      }
-    ],
-    "phone_wpp": true,
-    "socials": true
+    "pages": [],
+    "phone_wpp": false,
+    "socials": false
   },
   "categories_list": {
-    "featured": ["/search?Assinar"],
+    "featured": [],
     "random": 0,
-    "full_width": true
+    "full_width": false
   },
-  "desktop_megamenu": true,
-  "search_input": true
+  "desktop_megamenu": false,
+  "search_input": false
 }
